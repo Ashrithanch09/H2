@@ -5,8 +5,11 @@ const HeroCard = ({ img  }) => {
         <img src={img} alt="" className="w-full h-full" />
       </div>
       <div className=" p-6 flex flex-col gap-[15px]">
-        <h3 className="font-[500] text-[14px]"></h3>
-       <p>hi to all</p>
+        <h3 className="font-[500] text-[14px]">
+          <p>hi to all</p>
+          <p>hi</p>
+        </h3>
+       
       </div>
     </div>
   )
