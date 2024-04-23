@@ -7,6 +7,8 @@ const HeroCard = ({ img  }) => {
       <div className=" p-6 flex flex-col gap-[15px]">
         <h3 className="font-[500] text-[14px]">
           <p>hi to all</p>
+        </h3>
+        <h3 className="font-[500] text-[14px]">
           <p>hi</p>
         </h3>
        
