@@ -5,7 +5,7 @@ const HeroCard = ({ img, heading }) => {
         <img src={img} alt="" className="w-full h-full" />
       </div>
       <div className=" p-6 flex flex-col gap-[15px]">
-        <h3 className="font-[500] text-[14px]">{heading}</h3>
+        <h3 className="font-[500] text-[14px]"></h3>
         <p>Hi to all welocome to India.</p>
       </div>
     </div>
