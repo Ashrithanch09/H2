@@ -9,7 +9,8 @@ const HeroCard = ({ img  }) => {
           <p>hi to all</p>
         </h3>
       </div>
-      <div className="font-[500] The Central Capex Surge">
+      <div className="font-[500]">The Central Capex Surge</div>
+      
     </div>
   )
 }
