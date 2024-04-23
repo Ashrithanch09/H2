@@ -1,4 +1,4 @@
-const HeroCard = ({ img, heading }) => {
+const HeroCard = ({ img  }) => {
   return (
     <div className="flex flex-col w-[220px] [box-shadow:rgba(99,_99,_99,_0.2)_0px_2px_8px_0px] items-center h-[300px] cursor-pointer hover:scale-105">
       <div className="w-full h-[140px] ">
@@ -6,7 +6,7 @@ const HeroCard = ({ img, heading }) => {
       </div>
       <div className=" p-6 flex flex-col gap-[15px]">
         <h3 className="font-[500] text-[14px]"></h3>
-       
+       <p>hi to all</p>
       </div>
     </div>
   )
