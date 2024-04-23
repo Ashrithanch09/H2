@@ -6,10 +6,7 @@ const HeroCard = ({ img, heading }) => {
       </div>
       <div className=" p-6 flex flex-col gap-[15px]">
         <h3 className="font-[500] text-[14px]"></h3>
-        <p>Hi to all welocome to India.</p>
-        <p>welcome</p>
-        <p>hai</p>
-        <p>Hello</p>
+       
       </div>
     </div>
   )
