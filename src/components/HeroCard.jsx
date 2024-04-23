@@ -8,8 +8,8 @@ const HeroCard = ({ img  }) => {
         <h3 className="font-[500] text-[14px]">
           <p>hi to all</p>
         </h3>
-       
       </div>
+      <div className="font-[500]">
     </div>
   )
 }
