@@ -5,21 +5,13 @@ const HeroCard = ({ img, heading }) => {
         <img src={img} alt="" className="w-full h-full" />
       </div>
 
-      const Hero=[
-        {
-          id:1,
-          imgUrl:"https://media.istockphoto.com/id/1499046027/photo/big-data-chart-on-city-backdrop-trade-technology-and-investment-analysis-business-development.jpg?s=612x612&w=0&k=20&c=HKDPv_ibUH24gOH7FS1OLLhtXFBnOTAtgMTOGf-s7qM=",
-          heading:"State of Markets",
-          description:"The market capitalisation of Indian stocks crossed US$4.5 trillion in january."
-        },
-        {
-          id:2,
-          imgUrl:"https://ibb.co/CQ7vWt8",
-          heading:"The Central Capex Surge",
-          description:'The last few years have seen very substantial steup in capital'
-        }
-        ]
-        
+      <div className=" p-6 flex flex-col gap-[15px]">
+        <h3 className="font-[500] text-[14px]">{heading}</h3>
+        <p className="text-black/40 text-[12px]">
+          The market capitalisation
+          of Indian stocks crossed US$4.5 trillion in January
+        </p>
+      </div>
     </div>
   )
 }
