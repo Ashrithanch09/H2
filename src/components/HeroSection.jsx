@@ -3,7 +3,7 @@ import { FaArrowAltCircleRight } from 'react-icons/fa'
 import HeroCard from './HeroCard'
 import img1 from '../assets/pic1.jpg'
 import img3 from '../assets/pic3.jpg'
-import img4 from '../assets/pic4.svg'
+import img4 from '../assets/pic4.jpg'
 import img5 from '../assets/pic5.jpg'
 import img6 from '../assets/pic6.jpg'
 
